@@ -1,0 +1,13 @@
+# Copier en config.yaml (a cote du script ou de l'exe). Ne jamais versionner config.yaml.
+pbx:
+  url: "https://pbx.example.com"      # URL du PBX 3CX (v20+)
+  username: "api-user@example.com"    # compte admin / API
+  password: ""                        # ou variable d'environnement THREECX_PASSWORD (voir README)
+  security_code: ""                   # vide si non utilise
+
+default_extension: ""                 # extension pre-selectionnee au 1er lancement
+
+# Mapping prefixe de regle sortante -> numero a afficher
+outbound_labels:
+  "101": "+41 00 000 00 00"
+  "102": "+41 00 000 00 01"

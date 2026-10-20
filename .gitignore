@@ -1,0 +1,24 @@
+# Secrets / config locale
+config.yaml
+.env
+*.pem
+*.key
+*.kdbx
+*.pfx
+*.p12
+*.rdp
+*.ovpn
+# Etat local de l'app
+.state.json
+# Build
+build/
+dist/
+*.exe
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+# Outils locaux
+.claude/
